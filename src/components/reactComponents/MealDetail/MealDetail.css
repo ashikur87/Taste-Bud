@@ -1,0 +1,28 @@
+.meal-detail-section{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+}
+.meal-detail{
+    margin: auto;
+}
+.meal-detail-img{
+    margin-left: 20px;
+}
+.meal-detail-img img{
+    width: 440px;
+    height: 450px;
+    object-fit: cover;
+}
+.add-btn{
+    padding: 10px 35px;
+    margin-top: 20px;
+    background-color: rgb(88, 206, 67);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.add-btn:hover{
+    color: white;
+}

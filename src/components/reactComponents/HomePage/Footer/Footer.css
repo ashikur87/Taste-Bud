@@ -1,0 +1,32 @@
+.footer-section{
+    padding: 50px;
+    background-color: #1b1a17;
+}
+.footer{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+}
+.social-media{
+    font-size: 30px;
+    margin-left: 35px;
+    color: rgb(46, 46, 243);
+    cursor: pointer;
+}
+.social-media:hover{
+    color: #ec4646;
+}
+
+/* media query */
+@media only screen and (max-width: 600px){
+    .footer{
+        width: 80%;
+    }
+    .social-media{
+        font-size: 30px;
+        margin-left: 35px;
+    }
+}
